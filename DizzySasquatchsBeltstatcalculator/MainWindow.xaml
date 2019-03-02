@@ -1,0 +1,127 @@
+﻿<Window x:Class="DizzySasquatchsBeltstatcalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DizzySasquatchsBeltstatcalculator"
+        mc:Ignorable="d"
+        Title="DizzySasquatch's Beltstatcalculator" Height="450" Width="590" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Background="#FFC8C8C8">
+    <Grid x:Name="MainGrid" Margin="0,0,5,5">
+        <Label x:Name="BeltEnhancement" Content="Belt Enhancement" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="176"/>
+        <ComboBox x:Name="CBx_BeltEnhancement" HorizontalAlignment="Left" Margin="191,10,0,0" VerticalAlignment="Top" Width="66" Height="26">
+            <ComboBoxItem Content="&lt; +20" IsSelected="True"/>
+            <ComboBoxItem Content="+20"/>
+            <ComboBoxItem Content="+21"/>
+            <ComboBoxItem Content="+22"/>
+            <ComboBoxItem Content="+23"/>
+            <ComboBoxItem Content="+24"/>
+            <ComboBoxItem Content="+25"/>
+        </ComboBox>
+        <Label x:Name="Limit" Content="Limit:" HorizontalAlignment="Left" Margin="262,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Lbl_BeltLimit" Content="BeltLimit" HorizontalAlignment="Left" Margin="305,10,0,0" VerticalAlignment="Top" Tag="IgnoreLang"/>
+        <ComboBox x:Name="CBx_Pet0" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Width="176" Height="26" Tag="Petlist"/>
+        <ComboBox x:Name="Cbx_Stage0" HorizontalAlignment="Left" Margin="191,62,0,0" VerticalAlignment="Top" Width="66" SelectedIndex="0" Height="26">
+            <ComboBoxItem Content="0"/>
+            <ComboBoxItem Content="1"/>
+            <ComboBoxItem Content="2"/>
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="4"/>
+            <ComboBoxItem Content="5"/>
+        </ComboBox>
+        <ComboBox x:Name="CBx_Pet1" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" Width="176" Height="26" Tag="Petlist"/>
+        <ComboBox x:Name="Cbx_Stage1" HorizontalAlignment="Left" Margin="191,93,0,0" VerticalAlignment="Top" Width="66" SelectedIndex="0" Height="26">
+            <ComboBoxItem Content="0"/>
+            <ComboBoxItem Content="1"/>
+            <ComboBoxItem Content="2"/>
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="4"/>
+            <ComboBoxItem Content="5"/>
+        </ComboBox>
+        <ComboBox x:Name="CBx_Pet2" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top" Width="176" Height="26" Tag="Petlist"/>
+        <ComboBox x:Name="Cbx_Stage2" HorizontalAlignment="Left" Margin="191,124,0,0" VerticalAlignment="Top" Width="66" SelectedIndex="0" Height="26">
+            <ComboBoxItem Content="1"/>
+            <ComboBoxItem Content="2"/>
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="4"/>
+            <ComboBoxItem Content="5"/>
+        </ComboBox>
+        <ComboBox x:Name="CBx_Pet3" HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top" Width="176" Height="26" Tag="Petlist"/>
+        <ComboBox x:Name="Cbx_Stage3" HorizontalAlignment="Left" Margin="191,155,0,0" VerticalAlignment="Top" Width="66" SelectedIndex="0" Height="26">
+            <ComboBoxItem Content="2"/>
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="4"/>
+            <ComboBoxItem Content="5"/>
+        </ComboBox>
+        <ComboBox x:Name="CBx_Pet4" HorizontalAlignment="Left" Margin="10,186,0,0" VerticalAlignment="Top" Width="176" Height="26" Tag="Petlist"/>
+        <ComboBox x:Name="Cbx_Stage4" HorizontalAlignment="Left" Margin="191,186,0,0" VerticalAlignment="Top" Width="66" SelectedIndex="0" Height="26">
+            <ComboBoxItem Content="0"/>
+            <ComboBoxItem Content="1"/>
+            <ComboBoxItem Content="2"/>
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="4"/>
+            <ComboBoxItem Content="5"/>
+        </ComboBox>
+        <ComboBox x:Name="CBx_Pet5" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" Width="176" Height="26" Tag="Petlist"/>
+        <ComboBox x:Name="Cbx_Stage5" HorizontalAlignment="Left" Margin="191,217,0,0" VerticalAlignment="Top" Width="66" SelectedIndex="0" Height="26">
+            <ComboBoxItem Content="0"/>
+            <ComboBoxItem Content="1"/>
+            <ComboBoxItem Content="2"/>
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="4"/>
+            <ComboBoxItem Content="5"/>
+        </ComboBox>
+        <RadioButton x:Name="Rbt_LangDE" Content="Deutsch" HorizontalAlignment="Left" Margin="10,355,0,0" VerticalAlignment="Top" IsChecked="True" GroupName="Language"/>
+        <RadioButton x:Name="Rbt_LangEN" Content="English" HorizontalAlignment="Left" Margin="10,370,0,0" VerticalAlignment="Top" GroupName="Language"/>
+        <Label x:Name="Stage" Content="Stage" HorizontalAlignment="Left" Margin="191,36,0,0" VerticalAlignment="Top" Width="66"/>
+        <Label x:Name="Stat_Strength" Content="Strength" HorizontalAlignment="Left" Margin="262,62,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_StrengthValue" Content="Str" HorizontalAlignment="Left" Margin="361,62,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_Vitality" Content="Vitality" HorizontalAlignment="Left" Margin="416,62,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_VitalityValue" Content="Vit" HorizontalAlignment="Left" Margin="515,62,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_Agility" Content="Agility" HorizontalAlignment="Left" Margin="262,93,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_AgilityValue" Content="Agi" HorizontalAlignment="Left" Margin="361,93,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_Dexterity" Content="Dexterity" HorizontalAlignment="Left" Margin="416,93,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_DexterityValue" Content="Dex" HorizontalAlignment="Left" Margin="515,93,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_Intelligence" Content="Intelligence" HorizontalAlignment="Left" Margin="262,124,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_IntelligenceValue" Content="Int" HorizontalAlignment="Left" Margin="361,124,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_Wisdom" Content="Wisdom" HorizontalAlignment="Left" Margin="416,124,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_WisdomValue" Content="Wis" HorizontalAlignment="Left" Margin="515,124,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_Luck" Content="Luck" HorizontalAlignment="Left" Margin="416,31,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_LuckValue" Content="Lck" HorizontalAlignment="Left" Margin="515,31,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+
+        <Label x:Name="Stat_PAtk" Content="PAtck" HorizontalAlignment="Left" Margin="262,170,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_PAtkValue" Content="PAtk" HorizontalAlignment="Left" Margin="361,170,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_MAtk" Content="MAtck" HorizontalAlignment="Left" Margin="416,170,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_MAtkValue" Content="MAtk" HorizontalAlignment="Left" Margin="515,170,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_Acc" Content="PAccu" HorizontalAlignment="Left" Margin="262,199,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_AccValue" Content="Acc" HorizontalAlignment="Left" Margin="361,199,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_MAcc" Content="MAccu" HorizontalAlignment="Left" Margin="416,199,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_MAccValue" Content="MAcc" HorizontalAlignment="Left" Margin="515,199,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_PDef" Content="PDefe" HorizontalAlignment="Left" Margin="262,230,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_PDefValue" Content="PDef" HorizontalAlignment="Left" Margin="361,230,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_MDef" Content="MDefe" HorizontalAlignment="Left" Margin="416,230,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_MDefValue" Content="MDef" HorizontalAlignment="Left" Margin="515,230,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_AtkSpd" Content="AtSpeed" HorizontalAlignment="Left" Margin="262,261,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_AtkSpdValue" Content="ASpd" HorizontalAlignment="Left" Margin="361,261,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_CastSpd" Content="CastSpd" HorizontalAlignment="Left" Margin="416,261,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_CastSpdValue" Content="CSpd" HorizontalAlignment="Left" Margin="515,261,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_Eva" Content="Evasion" HorizontalAlignment="Left" Margin="262,292,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_EvaValue" Content="Evas" HorizontalAlignment="Left" Margin="361,292,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_CritRatio" Content="CritRatio" HorizontalAlignment="Left" Margin="416,292,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_CritRatioValue" Content="Crit" HorizontalAlignment="Left" Margin="515,292,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_BlockRatio" Content="BlockRatio" HorizontalAlignment="Left" Margin="262,323,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_BlockRatioValue" Content="Blck" HorizontalAlignment="Left" Margin="361,323,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_HPRegen" Content="HPReg" HorizontalAlignment="Left" Margin="416,323,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_HPRegenValue" Content="HPRe" HorizontalAlignment="Left" Margin="515,323,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_MPRegen" Content="MPReg" HorizontalAlignment="Left" Margin="416,354,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_MPRegenValue" Content="MPRe" HorizontalAlignment="Left" Margin="515,354,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Lbl_Language" Content="Language:" HorizontalAlignment="Left" Margin="10,329,0,0" VerticalAlignment="Top" Tag="IgnoreLang" Padding="0,5,5,5"/>
+        <Button x:Name="Btn_Reset" Content="Reset" HorizontalAlignment="Left" Margin="262,376,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="Btn_Reset_Click"/>
+        <Button x:Name="Btn_About" Content="About" HorizontalAlignment="Left" Margin="494,386,0,0" VerticalAlignment="Top" Width="75" Click="Btn_About_Click"/>
+        <TextBlock x:Name="Lbl_Backlink" HorizontalAlignment="Left" Margin="10,388,0,0" VerticalAlignment="Top" Tag="IgnoreLang">
+            <Hyperlink NavigateUri="https://rappelztutorials.wordpress.com" RequestNavigate="Hyperlink_RequestNavigate">
+                rappelztutorials.wordpress.com
+            </Hyperlink>
+        </TextBlock>
+
+    </Grid>
+</Window>
