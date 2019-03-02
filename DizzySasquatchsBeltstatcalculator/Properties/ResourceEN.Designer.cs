@@ -673,7 +673,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die DizzySasquatch&apos;s Beltstatcalculator$n$nThanks to Grzlgrmpf, who helped me testing and made some nice suggestions. ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die DizzySasquatch&apos;s Beltstatcalculator $version$n$nThanks to Grzlgrmpf, who helped me testing and made some nice suggestions. ähnelt.
         /// </summary>
         internal static string UI_AboutText {
             get {

@@ -358,7 +358,7 @@
     <value>Info</value>
   </data>
   <data name="UI_AboutText" xml:space="preserve">
-    <value>DizzySasquatch's Beltstatcalculator$n$nVielen Dank an Grzlgrmpf für die Hilfe beim Testen und Einbringen neuer Ideen.</value>
+    <value>DizzySasquatch's Beltstatcalculator $version$n$nVielen Dank an Grzlgrmpf für die Hilfe beim Testen und Einbringen neuer Ideen.</value>
   </data>
   <data name="UI_AboutTitle" xml:space="preserve">
     <value>Über den Beltstatcalculator (by DizzySasquatch)</value>

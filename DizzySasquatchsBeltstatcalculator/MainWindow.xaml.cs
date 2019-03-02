@@ -13,6 +13,8 @@ namespace DizzySasquatchsBeltstatcalculator
     /// </summary>
     public partial class MainWindow : Window
     {
+        private const string VERSION = "v2.1";
+
         private Belt _belt = new Belt();
         private Language _lang = DizzySasquatchsBeltstatcalculator.Language.DE;
 
@@ -77,7 +79,9 @@ namespace DizzySasquatchsBeltstatcalculator
             foreach (Label label in MainGrid.Children.OfType<Label>())
             {
                 if (label.Tag?.ToString() == "IgnoreLang")
-                { continue; }
+                {
+                    continue;
+                }
                 string prefix = "UI_";
                 string name = label.Name;
                 if (label.Name.StartsWith("Stat_"))
@@ -131,7 +135,9 @@ namespace DizzySasquatchsBeltstatcalculator
             {
                 object selectedItem = MainGrid.Children.OfType<ComboBox>().First(c => c.Name == $"CBx_Pet{i}").SelectedItem;
                 if (selectedItem is null)
-                { continue; }
+                {
+                    continue;
+                }
                 if (selectedItem is ComboBoxItem cbxi && cbxi.Tag is CreatureType type)
                 {
                     int stage = int.Parse(MainGrid.Children.OfType<ComboBox>().First(c => c.Name == $"Cbx_Stage{i}").SelectedItem?.ToString().Split(' ')[1]);
@@ -185,10 +191,10 @@ namespace DizzySasquatchsBeltstatcalculator
         private void Btn_About_Click(object sender, RoutedEventArgs e)
         {
             ResourceReader res = new ResourceReader(_lang);
-            MessageBox.Show(res.GetString("UI_AboutText").Replace("$n", "\n"), res.GetString("UI_AboutTitle"), MessageBoxButton.OK);
+            MessageBox.Show(res.GetString("UI_AboutText").Replace("$n", "\n").Replace("$version", VERSION), res.GetString("UI_AboutTitle"), MessageBoxButton.OK);
         }
 
-        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
+        private void hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri));
         }
