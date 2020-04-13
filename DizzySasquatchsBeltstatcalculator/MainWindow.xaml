@@ -70,8 +70,9 @@
             <ComboBoxItem Content="4"/>
             <ComboBoxItem Content="5"/>
         </ComboBox>
-        <RadioButton x:Name="Rbt_LangDE" Content="Deutsch" HorizontalAlignment="Left" Margin="10,329,0,0" VerticalAlignment="Top" IsChecked="True" GroupName="Language"/>
-        <RadioButton x:Name="Rbt_LangEN" Content="English" HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" GroupName="Language"/>
+        <RadioButton x:Name="Rbt_LangDE" Content="Deutsch" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" IsChecked="True" GroupName="Language"/>
+        <RadioButton x:Name="Rbt_LangEN" Content="English" HorizontalAlignment="Left" Margin="10,332,0,0" VerticalAlignment="Top" GroupName="Language"/>
+        <RadioButton x:Name="Rbt_LangFR" Content="Français" HorizontalAlignment="Left" Margin="10,352,0,0" VerticalAlignment="Top" GroupName="Language"/>
         <Label x:Name="Stage" Content="Stage" HorizontalAlignment="Left" Margin="191,36,0,0" VerticalAlignment="Top" Width="66"/>
         <Label x:Name="Stat_Strength" Content="Strength" HorizontalAlignment="Left" Margin="262,62,0,0" VerticalAlignment="Top" Width="99"/>
         <Label x:Name="Stat_StrengthValue" Content="Str" HorizontalAlignment="Left" Margin="361,62,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
@@ -114,7 +115,7 @@
         <Label x:Name="Stat_HPRegenValue" Content="HPRe" HorizontalAlignment="Left" Margin="515,323,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
         <Label x:Name="Stat_MPRegen" Content="MPReg" HorizontalAlignment="Left" Margin="416,354,0,0" VerticalAlignment="Top" Width="99"/>
         <Label x:Name="Stat_MPRegenValue" Content="MPRe" HorizontalAlignment="Left" Margin="515,354,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
-        <Label x:Name="Lbl_Language" Content="Language:" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Tag="IgnoreLang" Padding="0,5,5,5"/>
+        <Label x:Name="Lbl_Language" Content="Language:" HorizontalAlignment="Left" Margin="10,281,0,0" VerticalAlignment="Top" Tag="IgnoreLang" Padding="0,5,5,5"/>
         <Button x:Name="Btn_Reset" Content="Reset" HorizontalAlignment="Left" Margin="262,376,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="Btn_Reset_Click"/>
         <Button x:Name="Btn_About" Content="About" HorizontalAlignment="Left" Margin="494,386,0,0" VerticalAlignment="Top" Width="75" Click="Btn_About_Click"/>
         <TextBlock x:Name="Tbl_Backlink" HorizontalAlignment="Left" Margin="10,388,0,0" VerticalAlignment="Top" Tag="IgnoreLang">
