@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Acc" xml:space="preserve">
+    <value>Précision</value>
+  </data>
+  <data name="Agility" xml:space="preserve">
+    <value>Agilité</value>
+  </data>
+  <data name="Angel" xml:space="preserve">
+    <value>Ange</value>
+  </data>
+  <data name="AtkSpd" xml:space="preserve">
+    <value>Rpd. Atq.</value>
+  </data>
+  <data name="Baphomet" xml:space="preserve">
+    <value>Baphomet</value>
+  </data>
+  <data name="BlightOgre" xml:space="preserve">
+    <value>Boucher</value>
+  </data>
+  <data name="BlockRatio" xml:space="preserve">
+    <value>Blocage%</value>
+  </data>
+  <data name="BluePixie" xml:space="preserve">
+    <value>Fée Bleue</value>
+  </data>
+  <data name="CastSpd" xml:space="preserve">
+    <value>Vit. Inc.</value>
+  </data>
+  <data name="Cerberus" xml:space="preserve">
+    <value>Cerbère</value>
+  </data>
+  <data name="CritRatio" xml:space="preserve">
+    <value>Taux Crit.</value>
+  </data>
+  <data name="DeathTyrant" xml:space="preserve">
+    <value>Tyran de la Mort</value>
+  </data>
+  <data name="Dexterity" xml:space="preserve">
+    <value>Dextérité</value>
+  </data>
+  <data name="Drillbot" xml:space="preserve">
+    <value>Pick</value>
+  </data>
+  <data name="Eva" xml:space="preserve">
+    <value>Esquive</value>
+  </data>
+  <data name="Genie" xml:space="preserve">
+    <value>Génie</value>
+  </data>
+  <data name="Gnoll" xml:space="preserve">
+    <value>Eimus</value>
+  </data>
+  <data name="Harpy" xml:space="preserve">
+    <value>Harpie</value>
+  </data>
+  <data name="Hawkman" xml:space="preserve">
+    <value>Homme-Faucon</value>
+  </data>
+  <data name="HPRegen" xml:space="preserve">
+    <value>HP Régén.</value>
+  </data>
+  <data name="IceMaiden" xml:space="preserve">
+    <value>Kainen</value>
+  </data>
+  <data name="Ifrit" xml:space="preserve">
+    <value>Génie Mystique</value>
+  </data>
+  <data name="Intelligence" xml:space="preserve">
+    <value>Intelligence</value>
+  </data>
+  <data name="KDS_Acc" xml:space="preserve">
+    <value>Soul: Précision</value>
+  </data>
+  <data name="KDS_Agility" xml:space="preserve">
+    <value>Soul: Agilité</value>
+  </data>
+  <data name="KDS_AtkSpd" xml:space="preserve">
+    <value>Soul: Rpd. Atq.</value>
+  </data>
+  <data name="KDS_CastSpd" xml:space="preserve">
+    <value>Soul: Vit. Inc.</value>
+  </data>
+  <data name="KDS_CritRatio" xml:space="preserve">
+    <value>Soul: Taux Crit.</value>
+  </data>
+  <data name="KDS_Dexterity" xml:space="preserve">
+    <value>Soul: Dextérité</value>
+  </data>
+  <data name="KDS_Eva" xml:space="preserve">
+    <value>Soul: Esquive</value>
+  </data>
+  <data name="KDS_Intelligence" xml:space="preserve">
+    <value>Soul: Intelligence</value>
+  </data>
+  <data name="KDS_MAcc" xml:space="preserve">
+    <value>Soul: Précision M.</value>
+  </data>
+  <data name="KDS_MAtk" xml:space="preserve">
+    <value>Soul: Attaque M.</value>
+  </data>
+  <data name="KDS_MDef" xml:space="preserve">
+    <value>Soul: Défense M.</value>
+  </data>
+  <data name="KDS_MPRegen" xml:space="preserve">
+    <value>Soul: MP Régén.</value>
+  </data>
+  <data name="KDS_PAtk" xml:space="preserve">
+    <value>Soul: Attaque</value>
+  </data>
+  <data name="KDS_PDef" xml:space="preserve">
+    <value>Soul: Défense</value>
+  </data>
+  <data name="KDS_Strength" xml:space="preserve">
+    <value>Soul: Force</value>
+  </data>
+  <data name="KDS_Vitality" xml:space="preserve">
+    <value>Soul: Vitalité</value>
+  </data>
+  <data name="KDS_VitalityWisdom" xml:space="preserve">
+    <value>Soul: Vitalité/Sagesse</value>
+  </data>
+  <data name="Kentauros" xml:space="preserve">
+    <value>Centaure</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="Luck" xml:space="preserve">
+    <value>Chance</value>
+  </data>
+  <data name="Lydian" xml:space="preserve">
+    <value>Lydian</value>
+  </data>
+  <data name="MAcc" xml:space="preserve">
+    <value>Précision M.</value>
+  </data>
+  <data name="MAtk" xml:space="preserve">
+    <value>Attaque M.</value>
+  </data>
+  <data name="MDef" xml:space="preserve">
+    <value>Défense M.</value>
+  </data>
+  <data name="Minotaurus" xml:space="preserve">
+    <value>Minotaure</value>
+  </data>
+  <data name="MPRegen" xml:space="preserve">
+    <value>MP Régén.</value>
+  </data>
+  <data name="MysticKoala" xml:space="preserve">
+    <value>Carbuncle</value>
+  </data>
+  <data name="Naga" xml:space="preserve">
+    <value>Tafari</value>
+  </data>
+  <data name="Nightmare" xml:space="preserve">
+    <value>Licorne Noire</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>Craken</value>
+  </data>
+  <data name="Orc" xml:space="preserve">
+    <value>Orc</value>
+  </data>
+  <data name="Pantera" xml:space="preserve">
+    <value>Panthère</value>
+  </data>
+  <data name="PAtk" xml:space="preserve">
+    <value>Attaque</value>
+  </data>
+  <data name="PDef" xml:space="preserve">
+    <value>Défense</value>
+  </data>
+  <data name="Poultry" xml:space="preserve">
+    <value>Volatile</value>
+  </data>
+  <data name="RedPixie" xml:space="preserve">
+    <value>Fée Rouge</value>
+  </data>
+  <data name="Salamander" xml:space="preserve">
+    <value>Salamandre</value>
+  </data>
+  <data name="Siren" xml:space="preserve">
+    <value>Sirène</value>
+  </data>
+  <data name="Skeleton" xml:space="preserve">
+    <value>Squelette</value>
+  </data>
+  <data name="Snowman" xml:space="preserve">
+    <value>Bonhomme de neige</value>
+  </data>
+  <data name="StoneGolem" xml:space="preserve">
+    <value>Cube</value>
+  </data>
+  <data name="Strength" xml:space="preserve">
+    <value>Force</value>
+  </data>
+  <data name="Tortus" xml:space="preserve">
+    <value>Tortue</value>
+  </data>
+  <data name="UI_About" xml:space="preserve">
+    <value>A propos</value>
+  </data>
+  <data name="UI_AboutText" xml:space="preserve">
+    <value>Calculateur de ceinture par DizzySasquatch $version$n$nMerci à Grzlgrmpf qui m'a aidé à tester et m'a donné de bonnes suggestions.</value>
+  </data>
+  <data name="UI_AboutTitle" xml:space="preserve">
+    <value>A propos du Calculateur de ceinture (par DizzySasquatch)</value>
+  </data>
+  <data name="UI_BeltEnhancement" xml:space="preserve">
+    <value>Amélioration de ceinture</value>
+  </data>
+  <data name="UI_Error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="UI_LanguageParseError" xml:space="preserve">
+    <value>Erreur </value>
+  </data>
+  <data name="UI_Limit" xml:space="preserve">
+    <value>Limite</value>
+  </data>
+  <data name="UI_Reset" xml:space="preserve">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="UI_Stage" xml:space="preserve">
+    <value>Stade</value>
+  </data>
+  <data name="Undine" xml:space="preserve">
+    <value>Mécanymphe</value>
+  </data>
+  <data name="Unicorn" xml:space="preserve">
+    <value>Licorne Blanche</value>
+  </data>
+  <data name="Vitality" xml:space="preserve">
+    <value>Vitalité</value>
+  </data>
+  <data name="WhiteDragon" xml:space="preserve">
+    <value>Dragon Blanc</value>
+  </data>
+  <data name="Wisdom" xml:space="preserve">
+    <value>Sagesse</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Loup</value>
+  </data>
+  <data name="Yeti" xml:space="preserve">
+    <value>Yéti</value>
+  </data>
+</root>

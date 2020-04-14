@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 using System.Windows;
 using DE = DizzySasquatchsBeltstatcalculator.Properties.ResourceDE;
 using EN = DizzySasquatchsBeltstatcalculator.Properties.ResourceEN;
+using FR = DizzySasquatchsBeltstatcalculator.Properties.ResourceFR;
 
 namespace DizzySasquatchsBeltstatcalculator
 {
-    public enum Language { None = 0, DE = 1, EN = 2 }
+    public enum Language { None = 0, DE = 1, EN = 2, FR = 3 }
     public class ResourceReader
     {
         public readonly Language Language = 0;
@@ -28,7 +29,23 @@ namespace DizzySasquatchsBeltstatcalculator
                 return rm.GetString( name );
             } catch (Exception e)
             {
-                string error = Language == Language.DE ? DE.UI_Error : EN.UI_Error;
+                var error = "";
+                switch (Language)
+                {
+                    case Language.None:
+                        error = "No language resource found";
+                        break;
+                    case Language.DE:
+                        error = DE.UI_Error;
+                        break;
+                    case Language.EN:
+                        error = EN.UI_Error;
+                        break;
+                    case Language.FR:
+                        error = FR.UI_Error;
+                        break;
+                }
+
                 MessageBox.Show( $"{error}: {e.Message}", e.Source, MessageBoxButton.OK, MessageBoxImage.Error );
                 return "";
             }

@@ -30,6 +30,7 @@ namespace DizzySasquatchsBeltstatcalculator
         {
             Rbt_LangDE.Checked += (sender, e) => UpdateLanguage(DizzySasquatchsBeltstatcalculator.Language.DE);
             Rbt_LangEN.Checked += (sender, e) => UpdateLanguage(DizzySasquatchsBeltstatcalculator.Language.EN);
+            Rbt_LangFR.Checked += (sender, e) => UpdateLanguage(DizzySasquatchsBeltstatcalculator.Language.FR);
             CBx_BeltEnhancement.SelectionChanged += (sender, e) =>
             {
                 Update();
