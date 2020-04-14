@@ -192,7 +192,7 @@ namespace DizzySasquatchsBeltstatcalculator
         private void Btn_About_Click(object sender, RoutedEventArgs e)
         {
             ResourceReader res = new ResourceReader(_lang);
-            MessageBox.Show(res.GetString("UI_AboutText").Replace("$n", "\n").Replace("$version", VERSION), res.GetString("UI_AboutTitle"), MessageBoxButton.OK);
+            MessageBox.Show(res.GetString("UI_AboutText").Replace("$n", "\n").Replace("$t", "\t").Replace("$version", VERSION), res.GetString("UI_AboutTitle"), MessageBoxButton.OK);
         }
 
         private void hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)

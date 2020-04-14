@@ -673,7 +673,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Calculateur de ceinture par DizzySasquatch $version$n$nMerci à Grzlgrmpf qui m&apos;a aidé à tester et m&apos;a donné de bonnes suggestions..
+        ///   Looks up a localized string similar to Calculateur de ceinture par DizzySasquatch $version$n$nMerci à Grzlgrmpf qui m&apos;a aidé à tester et m&apos;a donné de bonnes suggestions.$n$nTraducteur:$nAllemand$tDizzySasquatch$nAnglais$t$tDizzySasquatch$nFrançais$t$tSorrowAssa.
         /// </summary>
         internal static string UI_AboutText {
             get {

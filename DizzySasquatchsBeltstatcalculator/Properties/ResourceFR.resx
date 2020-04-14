@@ -322,7 +322,7 @@
     <value>A propos</value>
   </data>
   <data name="UI_AboutText" xml:space="preserve">
-    <value>Calculateur de ceinture par DizzySasquatch $version$n$nMerci à Grzlgrmpf qui m'a aidé à tester et m'a donné de bonnes suggestions.</value>
+    <value>Calculateur de ceinture par DizzySasquatch $version$n$nMerci à Grzlgrmpf qui m'a aidé à tester et m'a donné de bonnes suggestions.$n$nTraducteur:$nAllemand$tDizzySasquatch$nAnglais$t$tDizzySasquatch$nFrançais$t$tSorrowAssa</value>
   </data>
   <data name="UI_AboutTitle" xml:space="preserve">
     <value>A propos du Calculateur de ceinture (par DizzySasquatch)</value>
