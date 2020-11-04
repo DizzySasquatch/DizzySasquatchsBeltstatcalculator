@@ -115,11 +115,29 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to BlockDef.
+        /// </summary>
+        internal static string BlockDef {
+            get {
+                return ResourceManager.GetString("BlockDef", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Block Ratio.
         /// </summary>
         internal static string BlockRatio {
             get {
                 return ResourceManager.GetString("BlockRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bloodthirsty Slaughterer.
+        /// </summary>
+        internal static string BloodthirstySlaughterer {
+            get {
+                return ResourceManager.GetString("BloodthirstySlaughterer", resourceCulture);
             }
         }
         
@@ -160,6 +178,33 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Crystal Golem.
+        /// </summary>
+        internal static string CrystalGolem {
+            get {
+                return ResourceManager.GetString("CrystalGolem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Crystal Spider.
+        /// </summary>
+        internal static string CrystalSpider {
+            get {
+                return ResourceManager.GetString("CrystalSpider", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Death Gladiator.
+        /// </summary>
+        internal static string DeathGladiator {
+            get {
+                return ResourceManager.GetString("DeathGladiator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Death Tyrant.
         /// </summary>
         internal static string DeathTyrant {
@@ -187,11 +232,29 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ethereal Pixie.
+        /// </summary>
+        internal static string EtherealPixie {
+            get {
+                return ResourceManager.GetString("EtherealPixie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Evasion.
         /// </summary>
         internal static string Eva {
             get {
                 return ResourceManager.GetString("Eva", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Forest Pixie.
+        /// </summary>
+        internal static string ForestPixie {
+            get {
+                return ResourceManager.GetString("ForestPixie", resourceCulture);
             }
         }
         
@@ -210,6 +273,15 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         internal static string Gnoll {
             get {
                 return ResourceManager.GetString("Gnoll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grandmaster Hector.
+        /// </summary>
+        internal static string GrandmasterHector {
+            get {
+                return ResourceManager.GetString("GrandmasterHector", resourceCulture);
             }
         }
         
@@ -502,6 +574,15 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to MRes.
+        /// </summary>
+        internal static string MRes {
+            get {
+                return ResourceManager.GetString("MRes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mystic Koala.
         /// </summary>
         internal static string MysticKoala {
@@ -777,6 +858,15 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         internal static string WhiteDragon {
             get {
                 return ResourceManager.GetString("WhiteDragon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wind Pixie.
+        /// </summary>
+        internal static string WindPixie {
+            get {
+                return ResourceManager.GetString("WindPixie", resourceCulture);
             }
         }
         

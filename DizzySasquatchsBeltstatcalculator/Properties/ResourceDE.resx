@@ -366,4 +366,34 @@
   <data name="UI_Reset" xml:space="preserve">
     <value>Zurücksetzen</value>
   </data>
+  <data name="BlockDef" xml:space="preserve">
+    <value>Block PAbw.</value>
+  </data>
+  <data name="BloodthirstySlaughterer" xml:space="preserve">
+    <value>Blutdürstiger Schlächter</value>
+  </data>
+  <data name="CrystalGolem" xml:space="preserve">
+    <value>Kristallgolem</value>
+  </data>
+  <data name="CrystalSpider" xml:space="preserve">
+    <value>Kristallspinne</value>
+  </data>
+  <data name="DeathGladiator" xml:space="preserve">
+    <value>Todesgladiator</value>
+  </data>
+  <data name="EtherealPixie" xml:space="preserve">
+    <value>Ätherische Pixie</value>
+  </data>
+  <data name="ForestPixie" xml:space="preserve">
+    <value>Wald Pixie</value>
+  </data>
+  <data name="GrandmasterHector" xml:space="preserve">
+    <value>Großmeister Hektor</value>
+  </data>
+  <data name="MRes" xml:space="preserve">
+    <value>M. Reflex</value>
+  </data>
+  <data name="WindPixie" xml:space="preserve">
+    <value>Wind Pixie</value>
+  </data>
 </root>

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DizzySasquatchsBeltstatcalculator
+﻿namespace DizzySasquatchsBeltstatcalculator
 {
     public struct Stat
     {
@@ -21,7 +15,7 @@ namespace DizzySasquatchsBeltstatcalculator
 
         public static implicit operator Stat((StatType type, float valueBase, float valuePerStage) values)
         {
-            return new Stat( values.type, values.valueBase, values.valuePerStage );
+            return new Stat(values.type, values.valueBase, values.valuePerStage);
         }
     }
 }

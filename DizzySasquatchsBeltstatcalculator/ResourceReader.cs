@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Resources;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using DE = DizzySasquatchsBeltstatcalculator.Properties.ResourceDE;
 using EN = DizzySasquatchsBeltstatcalculator.Properties.ResourceEN;
@@ -25,9 +21,10 @@ namespace DizzySasquatchsBeltstatcalculator
         {
             try
             {
-                ResourceManager rm = new ResourceManager( $"DizzySasquatchsBeltstatcalculator.Properties.Resource{Language}", GetType().Assembly );
-                return rm.GetString( name );
-            } catch (Exception e)
+                ResourceManager rm = new ResourceManager($"DizzySasquatchsBeltstatcalculator.Properties.Resource{Language}", GetType().Assembly);
+                return rm.GetString(name);
+            }
+            catch (Exception e)
             {
                 var error = "";
                 switch (Language)
@@ -46,7 +43,7 @@ namespace DizzySasquatchsBeltstatcalculator
                         break;
                 }
 
-                MessageBox.Show( $"{error}: {e.Message}", e.Source, MessageBoxButton.OK, MessageBoxImage.Error );
+                MessageBox.Show($"{error}: {e.Message}", e.Source, MessageBoxButton.OK, MessageBoxImage.Error);
                 return "";
             }
         }

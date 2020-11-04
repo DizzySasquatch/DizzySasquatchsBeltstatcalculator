@@ -135,8 +135,16 @@
   <data name="BlightOgre" xml:space="preserve">
     <value>Boucher</value>
   </data>
+  <data name="BlockDef" xml:space="preserve">
+    <value>BlockDef</value>
+    <comment>it would be really nice, if someone could help out with the french version</comment>
+  </data>
   <data name="BlockRatio" xml:space="preserve">
     <value>Blocage%</value>
+  </data>
+  <data name="BloodthirstySlaughterer" xml:space="preserve">
+    <value>Bloodthirsty Slaughterer</value>
+    <comment>it would be really nice, if someone could help out with the french version</comment>
   </data>
   <data name="BluePixie" xml:space="preserve">
     <value>Fée Bleue</value>
@@ -150,6 +158,18 @@
   <data name="CritRatio" xml:space="preserve">
     <value>Taux Crit.</value>
   </data>
+  <data name="CrystalGolem" xml:space="preserve">
+    <value>Crystal Golem</value>
+    <comment>it would be really nice, if someone could help out with the french version</comment>
+  </data>
+  <data name="CrystalSpider" xml:space="preserve">
+    <value>Crystal Spider</value>
+    <comment>it would be really nice, if someone could help out with the french version</comment>
+  </data>
+  <data name="DeathGladiator" xml:space="preserve">
+    <value>Death Gladiator</value>
+    <comment>it would be really nice, if someone could help out with the french version</comment>
+  </data>
   <data name="DeathTyrant" xml:space="preserve">
     <value>Tyran de la Mort</value>
   </data>
@@ -159,14 +179,26 @@
   <data name="Drillbot" xml:space="preserve">
     <value>Pick</value>
   </data>
+  <data name="EtherealPixie" xml:space="preserve">
+    <value>Ethereal Pixie</value>
+    <comment>it would be really nice, if someone could help out with the french version</comment>
+  </data>
   <data name="Eva" xml:space="preserve">
     <value>Esquive</value>
+  </data>
+  <data name="ForestPixie" xml:space="preserve">
+    <value>Forest Pixie</value>
+    <comment>it would be really nice, if someone could help out with the french version</comment>
   </data>
   <data name="Genie" xml:space="preserve">
     <value>Génie</value>
   </data>
   <data name="Gnoll" xml:space="preserve">
     <value>Eimus</value>
+  </data>
+  <data name="GrandmasterHector" xml:space="preserve">
+    <value>Grandmaster Hector</value>
+    <comment>it would be really nice, if someone could help out with the french version</comment>
   </data>
   <data name="Harpy" xml:space="preserve">
     <value>Harpie</value>
@@ -264,6 +296,10 @@
   <data name="MPRegen" xml:space="preserve">
     <value>MP Régén.</value>
   </data>
+  <data name="MRes" xml:space="preserve">
+    <value>MRes</value>
+    <comment>it would be really nice, if someone could help out with the french version</comment>
+  </data>
   <data name="MysticKoala" xml:space="preserve">
     <value>Carbuncle</value>
   </data>
@@ -356,6 +392,10 @@
   </data>
   <data name="WhiteDragon" xml:space="preserve">
     <value>Dragon Blanc</value>
+  </data>
+  <data name="WindPixie" xml:space="preserve">
+    <value>Wind Pixie</value>
+    <comment>it would be really nice, if someone could help out with the french version</comment>
   </data>
   <data name="Wisdom" xml:space="preserve">
     <value>Sagesse</value>
