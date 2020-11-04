@@ -13,7 +13,7 @@ namespace DizzySasquatchsBeltstatcalculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        private const string VERSION = "v2.1";
+        private const string VERSION = "v2.3";
 
         private Belt _belt = new Belt();
         private Language _lang = DizzySasquatchsBeltstatcalculator.Language.DE;
