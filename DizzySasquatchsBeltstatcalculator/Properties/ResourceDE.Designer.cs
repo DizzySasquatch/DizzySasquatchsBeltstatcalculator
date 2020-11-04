@@ -133,7 +133,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Blutdürstiger Schlächter.
+        ///   Looks up a localized string similar to Blutrünstiger Schlächter.
         /// </summary>
         internal static string BloodthirstySlaughterer {
             get {

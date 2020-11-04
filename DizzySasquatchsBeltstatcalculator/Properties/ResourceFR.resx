@@ -136,15 +136,13 @@
     <value>Boucher</value>
   </data>
   <data name="BlockDef" xml:space="preserve">
-    <value>BlockDef</value>
-    <comment>it would be really nice, if someone could help out with the french version</comment>
+    <value>Blocage</value>
   </data>
   <data name="BlockRatio" xml:space="preserve">
     <value>Blocage%</value>
   </data>
   <data name="BloodthirstySlaughterer" xml:space="preserve">
-    <value>Bloodthirsty Slaughterer</value>
-    <comment>it would be really nice, if someone could help out with the french version</comment>
+    <value>Meurtrier Sanguinaire</value>
   </data>
   <data name="BluePixie" xml:space="preserve">
     <value>Fée Bleue</value>
@@ -159,15 +157,13 @@
     <value>Taux Crit.</value>
   </data>
   <data name="CrystalGolem" xml:space="preserve">
-    <value>Crystal Golem</value>
-    <comment>it would be really nice, if someone could help out with the french version</comment>
+    <value>Golem de Cristal</value>
   </data>
   <data name="CrystalSpider" xml:space="preserve">
-    <value>Crystal Spider</value>
-    <comment>it would be really nice, if someone could help out with the french version</comment>
+    <value>Arachnide Cristalline</value>
   </data>
   <data name="DeathGladiator" xml:space="preserve">
-    <value>Death Gladiator</value>
+    <value>Gladiateur de la Mort</value>
     <comment>it would be really nice, if someone could help out with the french version</comment>
   </data>
   <data name="DeathTyrant" xml:space="preserve">
@@ -180,15 +176,14 @@
     <value>Pick</value>
   </data>
   <data name="EtherealPixie" xml:space="preserve">
-    <value>Ethereal Pixie</value>
+    <value>Fée Éthéré</value>
     <comment>it would be really nice, if someone could help out with the french version</comment>
   </data>
   <data name="Eva" xml:space="preserve">
     <value>Esquive</value>
   </data>
   <data name="ForestPixie" xml:space="preserve">
-    <value>Forest Pixie</value>
-    <comment>it would be really nice, if someone could help out with the french version</comment>
+    <value>Fée des Forêts</value>
   </data>
   <data name="Genie" xml:space="preserve">
     <value>Génie</value>
@@ -197,8 +192,7 @@
     <value>Eimus</value>
   </data>
   <data name="GrandmasterHector" xml:space="preserve">
-    <value>Grandmaster Hector</value>
-    <comment>it would be really nice, if someone could help out with the french version</comment>
+    <value>Grand Maître Hecktor</value>
   </data>
   <data name="Harpy" xml:space="preserve">
     <value>Harpie</value>
@@ -297,8 +291,7 @@
     <value>MP Régén.</value>
   </data>
   <data name="MRes" xml:space="preserve">
-    <value>MRes</value>
-    <comment>it would be really nice, if someone could help out with the french version</comment>
+    <value>Esquive M.</value>
   </data>
   <data name="MysticKoala" xml:space="preserve">
     <value>Carbuncle</value>
@@ -394,8 +387,7 @@
     <value>Dragon Blanc</value>
   </data>
   <data name="WindPixie" xml:space="preserve">
-    <value>Wind Pixie</value>
-    <comment>it would be really nice, if someone could help out with the french version</comment>
+    <value>Fée des Vents</value>
   </data>
   <data name="Wisdom" xml:space="preserve">
     <value>Sagesse</value>

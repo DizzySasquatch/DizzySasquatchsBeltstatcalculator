@@ -115,7 +115,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to BlockDef.
+        ///   Looks up a localized string similar to Blocage.
         /// </summary>
         internal static string BlockDef {
             get {
@@ -133,7 +133,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bloodthirsty Slaughterer.
+        ///   Looks up a localized string similar to Meurtrier Sanguinaire.
         /// </summary>
         internal static string BloodthirstySlaughterer {
             get {
@@ -178,7 +178,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Crystal Golem.
+        ///   Looks up a localized string similar to Golem de Cristal.
         /// </summary>
         internal static string CrystalGolem {
             get {
@@ -187,7 +187,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Crystal Spider.
+        ///   Looks up a localized string similar to Arachnide Cristalline.
         /// </summary>
         internal static string CrystalSpider {
             get {
@@ -196,7 +196,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Death Gladiator.
+        ///   Looks up a localized string similar to Gladiateur de la Mort.
         /// </summary>
         internal static string DeathGladiator {
             get {
@@ -232,7 +232,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ethereal Pixie.
+        ///   Looks up a localized string similar to Fée Éthéré.
         /// </summary>
         internal static string EtherealPixie {
             get {
@@ -250,7 +250,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Forest Pixie.
+        ///   Looks up a localized string similar to Fée des Forêts.
         /// </summary>
         internal static string ForestPixie {
             get {
@@ -277,7 +277,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Grandmaster Hector.
+        ///   Looks up a localized string similar to Grand Maître Hecktor.
         /// </summary>
         internal static string GrandmasterHector {
             get {
@@ -574,7 +574,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MRes.
+        ///   Looks up a localized string similar to Esquive M..
         /// </summary>
         internal static string MRes {
             get {
@@ -862,7 +862,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Wind Pixie.
+        ///   Looks up a localized string similar to Fée des Vents.
         /// </summary>
         internal static string WindPixie {
             get {
