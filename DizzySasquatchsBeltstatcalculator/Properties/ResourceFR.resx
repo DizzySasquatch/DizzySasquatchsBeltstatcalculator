@@ -118,282 +118,284 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Acc" xml:space="preserve">
-    <value>Accuracy</value>
+    <value>Précision</value>
   </data>
   <data name="Agility" xml:space="preserve">
-    <value>Agility</value>
+    <value>Agilité</value>
   </data>
   <data name="Angel" xml:space="preserve">
-    <value>Angel</value>
+    <value>Ange</value>
   </data>
   <data name="AtkSpd" xml:space="preserve">
-    <value>Attack Speed</value>
+    <value>Rpd. Atq.</value>
   </data>
   <data name="Baphomet" xml:space="preserve">
     <value>Baphomet</value>
   </data>
-  <data name="UI_BeltEnhancement" xml:space="preserve">
-    <value>Belt Enhancement</value>
-  </data>
   <data name="BlightOgre" xml:space="preserve">
-    <value>Blight Ogre</value>
+    <value>Boucher</value>
+  </data>
+  <data name="BlockDef" xml:space="preserve">
+    <value>Blocage</value>
   </data>
   <data name="BlockRatio" xml:space="preserve">
-    <value>Block Ratio</value>
+    <value>Blocage%</value>
+  </data>
+  <data name="BloodthirstySlaughterer" xml:space="preserve">
+    <value>Meurtrier Sanguinaire</value>
   </data>
   <data name="BluePixie" xml:space="preserve">
-    <value>Blue Pixie</value>
+    <value>Fée Bleue</value>
   </data>
   <data name="CastSpd" xml:space="preserve">
-    <value>Cast Speed</value>
+    <value>Vit. Inc.</value>
   </data>
   <data name="Cerberus" xml:space="preserve">
-    <value>Cerberus</value>
+    <value>Cerbère</value>
   </data>
   <data name="CritRatio" xml:space="preserve">
-    <value>Crit Ratio</value>
+    <value>Taux Crit.</value>
+  </data>
+  <data name="CrystalGolem" xml:space="preserve">
+    <value>Golem de Cristal</value>
+  </data>
+  <data name="CrystalSpider" xml:space="preserve">
+    <value>Arachnide Cristalline</value>
+  </data>
+  <data name="DeathGladiator" xml:space="preserve">
+    <value>Gladiateur de la Mort</value>
+    <comment>it would be really nice, if someone could help out with the french version</comment>
   </data>
   <data name="DeathTyrant" xml:space="preserve">
-    <value>Death Tyrant</value>
+    <value>Tyran de la Mort</value>
   </data>
   <data name="Dexterity" xml:space="preserve">
-    <value>Dexterity</value>
+    <value>Dextérité</value>
   </data>
   <data name="Drillbot" xml:space="preserve">
-    <value>Drillbot</value>
+    <value>Pick</value>
+  </data>
+  <data name="EtherealPixie" xml:space="preserve">
+    <value>Fée Éthéré</value>
+    <comment>it would be really nice, if someone could help out with the french version</comment>
   </data>
   <data name="Eva" xml:space="preserve">
-    <value>Evasion</value>
+    <value>Esquive</value>
+  </data>
+  <data name="ForestPixie" xml:space="preserve">
+    <value>Fée des Forêts</value>
   </data>
   <data name="Genie" xml:space="preserve">
-    <value>Genie</value>
+    <value>Génie</value>
   </data>
   <data name="Gnoll" xml:space="preserve">
-    <value>Gnoll</value>
+    <value>Eimus</value>
+  </data>
+  <data name="GrandmasterHector" xml:space="preserve">
+    <value>Grand Maître Hecktor</value>
   </data>
   <data name="Harpy" xml:space="preserve">
-    <value>Harpy</value>
+    <value>Harpie</value>
   </data>
   <data name="Hawkman" xml:space="preserve">
-    <value>Hawkman</value>
+    <value>Homme-Faucon</value>
   </data>
   <data name="HPRegen" xml:space="preserve">
-    <value>HPRegen</value>
+    <value>HP Régén.</value>
   </data>
   <data name="IceMaiden" xml:space="preserve">
-    <value>Ice Maiden</value>
+    <value>Kainen</value>
   </data>
   <data name="Ifrit" xml:space="preserve">
-    <value>Ifrit</value>
+    <value>Génie Mystique</value>
   </data>
   <data name="Intelligence" xml:space="preserve">
     <value>Intelligence</value>
   </data>
-  <data name="Kentauros" xml:space="preserve">
-    <value>Kentauros</value>
-  </data>
-  <data name="Language" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="Luck" xml:space="preserve">
-    <value>Luck</value>
-  </data>
-  <data name="Lydian" xml:space="preserve">
-    <value>Lydian</value>
-  </data>
-  <data name="MAcc" xml:space="preserve">
-    <value>MAccuracy</value>
-  </data>
-  <data name="MAtk" xml:space="preserve">
-    <value>MAttack</value>
-  </data>
-  <data name="MDef" xml:space="preserve">
-    <value>MDefense</value>
-  </data>
-  <data name="Minotaurus" xml:space="preserve">
-    <value>Minotaurus</value>
-  </data>
-  <data name="MPRegen" xml:space="preserve">
-    <value>MPRegen</value>
-  </data>
-  <data name="MysticKoala" xml:space="preserve">
-    <value>Mystic Koala</value>
-  </data>
-  <data name="Naga" xml:space="preserve">
-    <value>Naga</value>
-  </data>
-  <data name="Nightmare" xml:space="preserve">
-    <value>Nightmare</value>
-  </data>
-  <data name="Octopus" xml:space="preserve">
-    <value>Octopus</value>
-  </data>
-  <data name="Orc" xml:space="preserve">
-    <value>Orc</value>
-  </data>
-  <data name="Pantera" xml:space="preserve">
-    <value>Pantera</value>
-  </data>
-  <data name="PAtk" xml:space="preserve">
-    <value>PAttack</value>
-  </data>
-  <data name="PDef" xml:space="preserve">
-    <value>PDefense</value>
-  </data>
-  <data name="Poultry" xml:space="preserve">
-    <value>Poultry</value>
-  </data>
-  <data name="RedPixie" xml:space="preserve">
-    <value>Red Pixie</value>
-  </data>
-  <data name="Salamander" xml:space="preserve">
-    <value>Salamander</value>
-  </data>
-  <data name="Siren" xml:space="preserve">
-    <value>Siren</value>
-  </data>
-  <data name="Skeleton" xml:space="preserve">
-    <value>Skeleton</value>
-  </data>
-  <data name="Snowman" xml:space="preserve">
-    <value>Snowman</value>
-  </data>
-  <data name="StoneGolem" xml:space="preserve">
-    <value>Stone Golem</value>
-  </data>
-  <data name="Strength" xml:space="preserve">
-    <value>Strength</value>
-  </data>
-  <data name="Tortus" xml:space="preserve">
-    <value>Tortus</value>
-  </data>
-  <data name="Undine" xml:space="preserve">
-    <value>Undine</value>
-  </data>
-  <data name="Unicorn" xml:space="preserve">
-    <value>Unicorn</value>
-  </data>
-  <data name="Vitality" xml:space="preserve">
-    <value>Vitality</value>
-  </data>
-  <data name="WhiteDragon" xml:space="preserve">
-    <value>White Dragon</value>
-  </data>
-  <data name="Wisdom" xml:space="preserve">
-    <value>Wisdom</value>
-  </data>
-  <data name="Wolf" xml:space="preserve">
-    <value>Wolf</value>
-  </data>
-  <data name="Yeti" xml:space="preserve">
-    <value>Yeti</value>
-  </data>
-  <data name="UI_Error" xml:space="preserve">
-    <value>Error</value>
-  </data>
-  <data name="UI_Limit" xml:space="preserve">
-    <value>Limit</value>
-  </data>
-  <data name="UI_LanguageParseError" xml:space="preserve">
-    <value>Error parsing language.</value>
-  </data>
-  <data name="UI_Stage" xml:space="preserve">
-    <value>Stage</value>
-  </data>
-  <data name="None" xml:space="preserve">
-    <value>None</value>
-  </data>
   <data name="KDS_Acc" xml:space="preserve">
-    <value>Soul: Accuracy</value>
+    <value>Soul: Précision</value>
   </data>
   <data name="KDS_Agility" xml:space="preserve">
-    <value>Soul: Agility</value>
+    <value>Soul: Agilité</value>
   </data>
   <data name="KDS_AtkSpd" xml:space="preserve">
-    <value>Soul: Attack Speed</value>
+    <value>Soul: Rpd. Atq.</value>
   </data>
   <data name="KDS_CastSpd" xml:space="preserve">
-    <value>Soul: Cast Speed</value>
+    <value>Soul: Vit. Inc.</value>
   </data>
   <data name="KDS_CritRatio" xml:space="preserve">
-    <value>Soul: Crit Ratio</value>
+    <value>Soul: Taux Crit.</value>
   </data>
   <data name="KDS_Dexterity" xml:space="preserve">
-    <value>Soul: Dexterity</value>
+    <value>Soul: Dextérité</value>
   </data>
   <data name="KDS_Eva" xml:space="preserve">
-    <value>Soul: Evasion</value>
+    <value>Soul: Esquive</value>
   </data>
   <data name="KDS_Intelligence" xml:space="preserve">
     <value>Soul: Intelligence</value>
   </data>
   <data name="KDS_MAcc" xml:space="preserve">
-    <value>Soul: MAccuracy</value>
+    <value>Soul: Précision M.</value>
   </data>
   <data name="KDS_MAtk" xml:space="preserve">
-    <value>Soul: MAttack</value>
+    <value>Soul: Attaque M.</value>
   </data>
   <data name="KDS_MDef" xml:space="preserve">
-    <value>Soul: MDefense</value>
+    <value>Soul: Défense M.</value>
   </data>
   <data name="KDS_MPRegen" xml:space="preserve">
-    <value>Soul: MPRegen</value>
+    <value>Soul: MP Régén.</value>
   </data>
   <data name="KDS_PAtk" xml:space="preserve">
-    <value>Soul: PAttack</value>
+    <value>Soul: Attaque</value>
   </data>
   <data name="KDS_PDef" xml:space="preserve">
-    <value>Soul: PDefense</value>
+    <value>Soul: Défense</value>
   </data>
   <data name="KDS_Strength" xml:space="preserve">
-    <value>Soul: Strength</value>
+    <value>Soul: Force</value>
   </data>
   <data name="KDS_Vitality" xml:space="preserve">
-    <value>Soul: Vitality</value>
+    <value>Soul: Vitalité</value>
   </data>
   <data name="KDS_VitalityWisdom" xml:space="preserve">
-    <value>Soul: Vitality / Wisdom</value>
+    <value>Soul: Vitalité/Sagesse</value>
   </data>
-  <data name="UI_About" xml:space="preserve">
-    <value>About</value>
+  <data name="Kentauros" xml:space="preserve">
+    <value>Centaure</value>
   </data>
-  <data name="UI_AboutText" xml:space="preserve">
-    <value>DizzySasquatch's Beltstatcalculator $version$n$nThanks to Grzlgrmpf, who helped me testing and made some nice suggestions.$n$nTranslators:$nGerman$t$tDizzySasquatch$nEnglish$t$tDizzySasquatch$nFrench$t$tSorrowAssa</value>
+  <data name="Language" xml:space="preserve">
+    <value>Français</value>
   </data>
-  <data name="UI_AboutTitle" xml:space="preserve">
-    <value>About the Beltstatcalculator (by DizzySasquatch)</value>
+  <data name="Luck" xml:space="preserve">
+    <value>Chance</value>
   </data>
-  <data name="UI_Reset" xml:space="preserve">
-    <value>Reset</value>
+  <data name="Lydian" xml:space="preserve">
+    <value>Lydian</value>
   </data>
-  <data name="BlockDef" xml:space="preserve">
-    <value>BlockDef</value>
+  <data name="MAcc" xml:space="preserve">
+    <value>Précision M.</value>
   </data>
-  <data name="BloodthirstySlaughterer" xml:space="preserve">
-    <value>Bloodthirsty Slaughterer</value>
+  <data name="MAtk" xml:space="preserve">
+    <value>Attaque M.</value>
   </data>
-  <data name="CrystalGolem" xml:space="preserve">
-    <value>Crystal Golem</value>
+  <data name="MDef" xml:space="preserve">
+    <value>Défense M.</value>
   </data>
-  <data name="CrystalSpider" xml:space="preserve">
-    <value>Crystal Spider</value>
+  <data name="Minotaurus" xml:space="preserve">
+    <value>Minotaure</value>
   </data>
-  <data name="DeathGladiator" xml:space="preserve">
-    <value>Death Gladiator</value>
-  </data>
-  <data name="EtherealPixie" xml:space="preserve">
-    <value>Ethereal Pixie</value>
-  </data>
-  <data name="ForestPixie" xml:space="preserve">
-    <value>Forest Pixie</value>
-  </data>
-  <data name="GrandmasterHector" xml:space="preserve">
-    <value>Grandmaster Hector</value>
+  <data name="MPRegen" xml:space="preserve">
+    <value>MP Régén.</value>
   </data>
   <data name="MRes" xml:space="preserve">
-    <value>MRes</value>
+    <value>Esquive M.</value>
+  </data>
+  <data name="MysticKoala" xml:space="preserve">
+    <value>Carbuncle</value>
+  </data>
+  <data name="Naga" xml:space="preserve">
+    <value>Tafari</value>
+  </data>
+  <data name="Nightmare" xml:space="preserve">
+    <value>Licorne Noire</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>Craken</value>
+  </data>
+  <data name="Orc" xml:space="preserve">
+    <value>Orc</value>
+  </data>
+  <data name="Pantera" xml:space="preserve">
+    <value>Panthère</value>
+  </data>
+  <data name="PAtk" xml:space="preserve">
+    <value>Attaque</value>
+  </data>
+  <data name="PDef" xml:space="preserve">
+    <value>Défense</value>
+  </data>
+  <data name="Poultry" xml:space="preserve">
+    <value>Volatile</value>
+  </data>
+  <data name="RedPixie" xml:space="preserve">
+    <value>Fée Rouge</value>
+  </data>
+  <data name="Salamander" xml:space="preserve">
+    <value>Salamandre</value>
+  </data>
+  <data name="Siren" xml:space="preserve">
+    <value>Sirène</value>
+  </data>
+  <data name="Skeleton" xml:space="preserve">
+    <value>Squelette</value>
+  </data>
+  <data name="Snowman" xml:space="preserve">
+    <value>Bonhomme de neige</value>
+  </data>
+  <data name="StoneGolem" xml:space="preserve">
+    <value>Cube</value>
+  </data>
+  <data name="Strength" xml:space="preserve">
+    <value>Force</value>
+  </data>
+  <data name="Tortus" xml:space="preserve">
+    <value>Tortue</value>
+  </data>
+  <data name="UI_About" xml:space="preserve">
+    <value>A propos</value>
+  </data>
+  <data name="UI_AboutText" xml:space="preserve">
+    <value>Calculateur de ceinture par DizzySasquatch $version$n$nMerci à Grzlgrmpf qui m'a aidé à tester et m'a donné de bonnes suggestions.$n$nTraducteur:$nAllemand$tDizzySasquatch$nAnglais$t$tDizzySasquatch$nFrançais$t$tSorrowAssa</value>
+  </data>
+  <data name="UI_AboutTitle" xml:space="preserve">
+    <value>A propos du Calculateur de ceinture (par DizzySasquatch)</value>
+  </data>
+  <data name="UI_BeltEnhancement" xml:space="preserve">
+    <value>Amélioration de ceinture</value>
+  </data>
+  <data name="UI_Error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="UI_LanguageParseError" xml:space="preserve">
+    <value>Erreur </value>
+  </data>
+  <data name="UI_Limit" xml:space="preserve">
+    <value>Limite</value>
+  </data>
+  <data name="UI_Reset" xml:space="preserve">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="UI_Stage" xml:space="preserve">
+    <value>Stade</value>
+  </data>
+  <data name="Undine" xml:space="preserve">
+    <value>Mécanymphe</value>
+  </data>
+  <data name="Unicorn" xml:space="preserve">
+    <value>Licorne Blanche</value>
+  </data>
+  <data name="Vitality" xml:space="preserve">
+    <value>Vitalité</value>
+  </data>
+  <data name="WhiteDragon" xml:space="preserve">
+    <value>Dragon Blanc</value>
   </data>
   <data name="WindPixie" xml:space="preserve">
-    <value>Wind Pixie</value>
+    <value>Fée des Vents</value>
+  </data>
+  <data name="Wisdom" xml:space="preserve">
+    <value>Sagesse</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Loup</value>
+  </data>
+  <data name="Yeti" xml:space="preserve">
+    <value>Yéti</value>
   </data>
 </root>

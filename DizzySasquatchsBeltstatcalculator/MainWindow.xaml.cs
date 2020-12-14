@@ -13,7 +13,7 @@ namespace DizzySasquatchsBeltstatcalculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        private const string VERSION = "v2.1";
+        private const string VERSION = "v2.3";
 
         private Belt _belt = new Belt();
         private Language _lang = DizzySasquatchsBeltstatcalculator.Language.DE;
@@ -30,6 +30,7 @@ namespace DizzySasquatchsBeltstatcalculator
         {
             Rbt_LangDE.Checked += (sender, e) => UpdateLanguage(DizzySasquatchsBeltstatcalculator.Language.DE);
             Rbt_LangEN.Checked += (sender, e) => UpdateLanguage(DizzySasquatchsBeltstatcalculator.Language.EN);
+            Rbt_LangFR.Checked += (sender, e) => UpdateLanguage(DizzySasquatchsBeltstatcalculator.Language.FR);
             CBx_BeltEnhancement.SelectionChanged += (sender, e) =>
             {
                 Update();
@@ -191,7 +192,7 @@ namespace DizzySasquatchsBeltstatcalculator
         private void Btn_About_Click(object sender, RoutedEventArgs e)
         {
             ResourceReader res = new ResourceReader(_lang);
-            MessageBox.Show(res.GetString("UI_AboutText").Replace("$n", "\n").Replace("$version", VERSION), res.GetString("UI_AboutTitle"), MessageBoxButton.OK);
+            MessageBox.Show(res.GetString("UI_AboutText").Replace("$n", "\n").Replace("$t", "\t").Replace("$version", VERSION), res.GetString("UI_AboutTitle"), MessageBoxButton.OK);
         }
 
         private void hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)

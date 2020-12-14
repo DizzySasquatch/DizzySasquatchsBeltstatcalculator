@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DizzySasquatchsBeltstatcalculator"
         mc:Ignorable="d"
-        Title="DizzySasquatch's Beltstatcalculator" Height="450" Width="590" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Background="#FFC8C8C8">
+        Title="DizzySasquatch's Beltstatcalculator" Height="470" Width="590" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Background="#FFC8C8C8">
     <Grid x:Name="MainGrid" Margin="0,0,5,5">
         <Label x:Name="BeltEnhancement" Content="Belt Enhancement" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="176"/>
         <ComboBox x:Name="CBx_BeltEnhancement" HorizontalAlignment="Left" Margin="191,10,0,0" VerticalAlignment="Top" Width="66" Height="26">
@@ -71,7 +71,8 @@
             <ComboBoxItem Content="5"/>
         </ComboBox>
         <RadioButton x:Name="Rbt_LangDE" Content="Deutsch" HorizontalAlignment="Left" Margin="10,329,0,0" VerticalAlignment="Top" IsChecked="True" GroupName="Language"/>
-        <RadioButton x:Name="Rbt_LangEN" Content="English" HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" GroupName="Language"/>
+        <RadioButton x:Name="Rbt_LangEN" Content="English" HorizontalAlignment="Left" Margin="10,349,0,0" VerticalAlignment="Top" GroupName="Language"/>
+        <RadioButton x:Name="Rbt_LangFR" Content="Français" HorizontalAlignment="Left" Margin="10,369,0,0" VerticalAlignment="Top" GroupName="Language"/>
         <Label x:Name="Stage" Content="Stage" HorizontalAlignment="Left" Margin="191,36,0,0" VerticalAlignment="Top" Width="66"/>
         <Label x:Name="Stat_Strength" Content="Strength" HorizontalAlignment="Left" Margin="262,62,0,0" VerticalAlignment="Top" Width="99"/>
         <Label x:Name="Stat_StrengthValue" Content="Str" HorizontalAlignment="Left" Margin="361,62,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
@@ -106,23 +107,27 @@
         <Label x:Name="Stat_CastSpdValue" Content="CSpd" HorizontalAlignment="Left" Margin="515,261,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
         <Label x:Name="Stat_Eva" Content="Evasion" HorizontalAlignment="Left" Margin="262,292,0,0" VerticalAlignment="Top" Width="99"/>
         <Label x:Name="Stat_EvaValue" Content="Evas" HorizontalAlignment="Left" Margin="361,292,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_MRes" Content="MRes" HorizontalAlignment="Left" Margin="262,323,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_MResValue" Content="MRes" HorizontalAlignment="Left" Margin="361,323,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
         <Label x:Name="Stat_CritRatio" Content="CritRatio" HorizontalAlignment="Left" Margin="416,292,0,0" VerticalAlignment="Top" Width="99"/>
         <Label x:Name="Stat_CritRatioValue" Content="Crit" HorizontalAlignment="Left" Margin="515,292,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
-        <Label x:Name="Stat_BlockRatio" Content="BlockRatio" HorizontalAlignment="Left" Margin="262,323,0,0" VerticalAlignment="Top" Width="99"/>
-        <Label x:Name="Stat_BlockRatioValue" Content="Blck" HorizontalAlignment="Left" Margin="361,323,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_BlockRatio" Content="BlockRatio" HorizontalAlignment="Left" Margin="262,354,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_BlockRatioValue" Content="Blck" HorizontalAlignment="Left" Margin="361,354,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
+        <Label x:Name="Stat_BlockDef" Content="BlockDef" HorizontalAlignment="Left" Margin="262,385,0,0" VerticalAlignment="Top" Width="99"/>
+        <Label x:Name="Stat_BlockDefValue" Content="BlckDef" HorizontalAlignment="Left" Margin="361,385,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
         <Label x:Name="Stat_HPRegen" Content="HPReg" HorizontalAlignment="Left" Margin="416,323,0,0" VerticalAlignment="Top" Width="99"/>
         <Label x:Name="Stat_HPRegenValue" Content="HPRe" HorizontalAlignment="Left" Margin="515,323,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
         <Label x:Name="Stat_MPRegen" Content="MPReg" HorizontalAlignment="Left" Margin="416,354,0,0" VerticalAlignment="Top" Width="99"/>
         <Label x:Name="Stat_MPRegenValue" Content="MPRe" HorizontalAlignment="Left" Margin="515,354,0,0" VerticalAlignment="Top" Width="50" Tag="IgnoreLang"/>
-        <Label x:Name="Lbl_Language" Content="Language:" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Tag="IgnoreLang" Padding="0,5,5,5"/>
-        <Button x:Name="Btn_Reset" Content="Reset" HorizontalAlignment="Left" Margin="262,376,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="Btn_Reset_Click"/>
+        <Label x:Name="Lbl_Language" Content="Language:" HorizontalAlignment="Left" Margin="10,298,0,0" VerticalAlignment="Top" Tag="IgnoreLang" Padding="0,5,5,5"/>
+        <Button x:Name="Btn_Reset" Content="Reset" HorizontalAlignment="Left" Margin="10,248,0,0" VerticalAlignment="Top" Width="176" Height="33" Click="Btn_Reset_Click"/>
         <Button x:Name="Btn_About" Content="About" HorizontalAlignment="Left" Margin="494,386,0,0" VerticalAlignment="Top" Width="75" Click="Btn_About_Click"/>
-        <TextBlock x:Name="Tbl_Backlink" HorizontalAlignment="Left" Margin="10,388,0,0" VerticalAlignment="Top" Tag="IgnoreLang">
+        <TextBlock x:Name="Tbl_Backlink" HorizontalAlignment="Left" Margin="10,410,0,0" VerticalAlignment="Top" Tag="IgnoreLang">
             <Hyperlink x:Name="hlk_wp" NavigateUri="https://rappelztutorials.wordpress.com" RequestNavigate="hyperlink_RequestNavigate">
                 rappelztutorials.wordpress.com
             </Hyperlink>
         </TextBlock>
-        <TextBlock x:Name="Tbl_GithubLink" HorizontalAlignment="Left" Margin="10,367,0,0" VerticalAlignment="Top" Tag="IgnoreLang">
+        <TextBlock x:Name="Tbl_GithubLink" HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top" Tag="IgnoreLang">
             <Hyperlink NavigateUri="https://github.com/DizzySasquatch/DizzySasquatchsBeltstatcalculator/releases/" RequestNavigate="hyperlink_RequestNavigate">
                 Find us on Github
             </Hyperlink>

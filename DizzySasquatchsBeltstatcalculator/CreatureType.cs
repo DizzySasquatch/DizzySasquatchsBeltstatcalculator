@@ -45,6 +45,15 @@
         Undine,
         WhiteDragon,
 
+        ForestPixie,
+        CrystalSpider,
+        WindPixie,
+        EtherealPixie,
+        BloodthirstySlaughterer,
+        CrystalGolem,
+        GrandmasterHector,
+        DeathGladiator,
+
         KDS_VitalityWisdom,
         KDS_MPRegen,
         KDS_MDef,

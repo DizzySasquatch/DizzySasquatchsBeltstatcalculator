@@ -19,8 +19,10 @@
         Acc,
         MAcc,
         Eva,
+        MRes,
         CritRatio,
         BlockRatio,
+        BlockDef,
         HPRegen,
         MPRegen,
     }

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DizzySasquatchsBeltstatcalculator
 {
@@ -193,6 +191,50 @@ namespace DizzySasquatchsBeltstatcalculator
                     _stats.Add((StatType.Intelligence, 9.5f, 0.5f));
                     _stats.Add((StatType.PDef, 9.5f, 0.5f));
                     _stats.Add((StatType.MAtk, 9.5f, 0.5f));
+                    break;
+                case CreatureType.ForestPixie:
+                    _stats.Add((StatType.Agility, 5.5f, 0.5f));
+                    _stats.Add((StatType.Dexterity, 5.5f, 0.5f));
+                    _stats.Add((StatType.PAtk, 5.5f, 0.5f));
+                    _stats.Add((StatType.Eva, 5.5f, 0.5f));
+                    break;
+                case CreatureType.CrystalSpider:
+                    _stats.Add((StatType.Strength, 8.5f, 0.5f));
+                    _stats.Add((StatType.Intelligence, 8.5f, 0.5f));
+                    _stats.Add((StatType.MAtk, 8.5f, 0.5f));
+                    _stats.Add((StatType.MAcc, 8.5f, 0.5f));
+                    break;
+                case CreatureType.WindPixie:
+                    _stats.Add((StatType.Intelligence, 9.5f, 0.5f));
+                    _stats.Add((StatType.Wisdom, 9.5f, 0.5f));
+                    _stats.Add((StatType.MAtk, 9.5f, 0.5f));
+                    _stats.Add((StatType.MRes, 9.5f, 0.5f));
+                    break;
+                case CreatureType.EtherealPixie:
+                    _stats.Add((StatType.Intelligence, 9.5f, 0.5f));
+                    _stats.Add((StatType.Wisdom, 9.5f, 0.5f));
+                    _stats.Add((StatType.MAtk, 9.5f, 0.5f));
+                    _stats.Add((StatType.MAcc, 9.5f, 0.5f));
+                    break;
+                case CreatureType.BloodthirstySlaughterer:
+                    _stats.Add((StatType.Strength, 18.0f, 1.0f));
+                    _stats.Add((StatType.PAtk, 18.0f, 1.0f));
+                    break;
+                case CreatureType.CrystalGolem:
+                    _stats.Add((StatType.Vitality, 18.0f, 1.0f));
+                    _stats.Add((StatType.BlockDef, 18.0f, 1.0f));
+                    break;
+                case CreatureType.GrandmasterHector:
+                    _stats.Add((StatType.Strength, 10.0f, 0.5f));
+                    _stats.Add((StatType.Intelligence, 10.0f, 0.5f));
+                    _stats.Add((StatType.PAtk, 10.0f, 0.5f));
+                    _stats.Add((StatType.MAtk, 10.0f, 0.5f));
+                    break;
+                case CreatureType.DeathGladiator:
+                    _stats.Add((StatType.Strength, 10.0f, 0.5f));
+                    _stats.Add((StatType.Agility, 10.0f, 0.5f));
+                    _stats.Add((StatType.PAtk, 10.0f, 0.5f));
+                    _stats.Add((StatType.Eva, 10.0f, 0.5f));
                     break;
                 case CreatureType cType when cType.ToString().StartsWith("KDS_"):
                     string stat = type.ToString().Split('_')[1];

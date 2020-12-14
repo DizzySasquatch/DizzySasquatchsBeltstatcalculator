@@ -22,14 +22,14 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class ResourceEN {
+    internal class ResourceFR {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal ResourceEN() {
+        internal ResourceFR() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DizzySasquatchsBeltstatcalculator.Properties.ResourceEN", typeof(ResourceEN).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DizzySasquatchsBeltstatcalculator.Properties.ResourceFR", typeof(ResourceFR).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Accuracy.
+        ///   Looks up a localized string similar to Précision.
         /// </summary>
         internal static string Acc {
             get {
@@ -70,7 +70,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Agility.
+        ///   Looks up a localized string similar to Agilité.
         /// </summary>
         internal static string Agility {
             get {
@@ -79,7 +79,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Angel.
+        ///   Looks up a localized string similar to Ange.
         /// </summary>
         internal static string Angel {
             get {
@@ -88,7 +88,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Attack Speed.
+        ///   Looks up a localized string similar to Rpd. Atq..
         /// </summary>
         internal static string AtkSpd {
             get {
@@ -106,7 +106,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Blight Ogre.
+        ///   Looks up a localized string similar to Boucher.
         /// </summary>
         internal static string BlightOgre {
             get {
@@ -115,7 +115,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to BlockDef.
+        ///   Looks up a localized string similar to Blocage.
         /// </summary>
         internal static string BlockDef {
             get {
@@ -124,7 +124,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Block Ratio.
+        ///   Looks up a localized string similar to Blocage%.
         /// </summary>
         internal static string BlockRatio {
             get {
@@ -133,7 +133,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bloodthirsty Slaughterer.
+        ///   Looks up a localized string similar to Meurtrier Sanguinaire.
         /// </summary>
         internal static string BloodthirstySlaughterer {
             get {
@@ -142,7 +142,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Blue Pixie.
+        ///   Looks up a localized string similar to Fée Bleue.
         /// </summary>
         internal static string BluePixie {
             get {
@@ -151,7 +151,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cast Speed.
+        ///   Looks up a localized string similar to Vit. Inc..
         /// </summary>
         internal static string CastSpd {
             get {
@@ -160,7 +160,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cerberus.
+        ///   Looks up a localized string similar to Cerbère.
         /// </summary>
         internal static string Cerberus {
             get {
@@ -169,7 +169,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Crit Ratio.
+        ///   Looks up a localized string similar to Taux Crit..
         /// </summary>
         internal static string CritRatio {
             get {
@@ -178,7 +178,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Crystal Golem.
+        ///   Looks up a localized string similar to Golem de Cristal.
         /// </summary>
         internal static string CrystalGolem {
             get {
@@ -187,7 +187,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Crystal Spider.
+        ///   Looks up a localized string similar to Arachnide Cristalline.
         /// </summary>
         internal static string CrystalSpider {
             get {
@@ -196,7 +196,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Death Gladiator.
+        ///   Looks up a localized string similar to Gladiateur de la Mort.
         /// </summary>
         internal static string DeathGladiator {
             get {
@@ -205,7 +205,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Death Tyrant.
+        ///   Looks up a localized string similar to Tyran de la Mort.
         /// </summary>
         internal static string DeathTyrant {
             get {
@@ -214,7 +214,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dexterity.
+        ///   Looks up a localized string similar to Dextérité.
         /// </summary>
         internal static string Dexterity {
             get {
@@ -223,7 +223,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Drillbot.
+        ///   Looks up a localized string similar to Pick.
         /// </summary>
         internal static string Drillbot {
             get {
@@ -232,7 +232,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ethereal Pixie.
+        ///   Looks up a localized string similar to Fée Éthéré.
         /// </summary>
         internal static string EtherealPixie {
             get {
@@ -241,7 +241,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Evasion.
+        ///   Looks up a localized string similar to Esquive.
         /// </summary>
         internal static string Eva {
             get {
@@ -250,7 +250,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Forest Pixie.
+        ///   Looks up a localized string similar to Fée des Forêts.
         /// </summary>
         internal static string ForestPixie {
             get {
@@ -259,7 +259,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Genie.
+        ///   Looks up a localized string similar to Génie.
         /// </summary>
         internal static string Genie {
             get {
@@ -268,7 +268,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Gnoll.
+        ///   Looks up a localized string similar to Eimus.
         /// </summary>
         internal static string Gnoll {
             get {
@@ -277,7 +277,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Grandmaster Hector.
+        ///   Looks up a localized string similar to Grand Maître Hecktor.
         /// </summary>
         internal static string GrandmasterHector {
             get {
@@ -286,7 +286,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Harpy.
+        ///   Looks up a localized string similar to Harpie.
         /// </summary>
         internal static string Harpy {
             get {
@@ -295,7 +295,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hawkman.
+        ///   Looks up a localized string similar to Homme-Faucon.
         /// </summary>
         internal static string Hawkman {
             get {
@@ -304,7 +304,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to HPRegen.
+        ///   Looks up a localized string similar to HP Régén..
         /// </summary>
         internal static string HPRegen {
             get {
@@ -313,7 +313,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ice Maiden.
+        ///   Looks up a localized string similar to Kainen.
         /// </summary>
         internal static string IceMaiden {
             get {
@@ -322,7 +322,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ifrit.
+        ///   Looks up a localized string similar to Génie Mystique.
         /// </summary>
         internal static string Ifrit {
             get {
@@ -340,7 +340,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: Accuracy.
+        ///   Looks up a localized string similar to Soul: Précision.
         /// </summary>
         internal static string KDS_Acc {
             get {
@@ -349,7 +349,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: Agility.
+        ///   Looks up a localized string similar to Soul: Agilité.
         /// </summary>
         internal static string KDS_Agility {
             get {
@@ -358,7 +358,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: Attack Speed.
+        ///   Looks up a localized string similar to Soul: Rpd. Atq..
         /// </summary>
         internal static string KDS_AtkSpd {
             get {
@@ -367,7 +367,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: Cast Speed.
+        ///   Looks up a localized string similar to Soul: Vit. Inc..
         /// </summary>
         internal static string KDS_CastSpd {
             get {
@@ -376,7 +376,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: Crit Ratio.
+        ///   Looks up a localized string similar to Soul: Taux Crit..
         /// </summary>
         internal static string KDS_CritRatio {
             get {
@@ -385,7 +385,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: Dexterity.
+        ///   Looks up a localized string similar to Soul: Dextérité.
         /// </summary>
         internal static string KDS_Dexterity {
             get {
@@ -394,7 +394,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: Evasion.
+        ///   Looks up a localized string similar to Soul: Esquive.
         /// </summary>
         internal static string KDS_Eva {
             get {
@@ -412,7 +412,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: MAccuracy.
+        ///   Looks up a localized string similar to Soul: Précision M..
         /// </summary>
         internal static string KDS_MAcc {
             get {
@@ -421,7 +421,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: MAttack.
+        ///   Looks up a localized string similar to Soul: Attaque M..
         /// </summary>
         internal static string KDS_MAtk {
             get {
@@ -430,7 +430,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: MDefense.
+        ///   Looks up a localized string similar to Soul: Défense M..
         /// </summary>
         internal static string KDS_MDef {
             get {
@@ -439,7 +439,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: MPRegen.
+        ///   Looks up a localized string similar to Soul: MP Régén..
         /// </summary>
         internal static string KDS_MPRegen {
             get {
@@ -448,7 +448,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: PAttack.
+        ///   Looks up a localized string similar to Soul: Attaque.
         /// </summary>
         internal static string KDS_PAtk {
             get {
@@ -457,7 +457,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: PDefense.
+        ///   Looks up a localized string similar to Soul: Défense.
         /// </summary>
         internal static string KDS_PDef {
             get {
@@ -466,7 +466,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: Strength.
+        ///   Looks up a localized string similar to Soul: Force.
         /// </summary>
         internal static string KDS_Strength {
             get {
@@ -475,7 +475,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: Vitality.
+        ///   Looks up a localized string similar to Soul: Vitalité.
         /// </summary>
         internal static string KDS_Vitality {
             get {
@@ -484,7 +484,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Soul: Vitality / Wisdom.
+        ///   Looks up a localized string similar to Soul: Vitalité/Sagesse.
         /// </summary>
         internal static string KDS_VitalityWisdom {
             get {
@@ -493,7 +493,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Kentauros.
+        ///   Looks up a localized string similar to Centaure.
         /// </summary>
         internal static string Kentauros {
             get {
@@ -502,7 +502,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to English.
+        ///   Looks up a localized string similar to Français.
         /// </summary>
         internal static string Language {
             get {
@@ -511,7 +511,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Luck.
+        ///   Looks up a localized string similar to Chance.
         /// </summary>
         internal static string Luck {
             get {
@@ -529,7 +529,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MAccuracy.
+        ///   Looks up a localized string similar to Précision M..
         /// </summary>
         internal static string MAcc {
             get {
@@ -538,7 +538,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MAttack.
+        ///   Looks up a localized string similar to Attaque M..
         /// </summary>
         internal static string MAtk {
             get {
@@ -547,7 +547,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MDefense.
+        ///   Looks up a localized string similar to Défense M..
         /// </summary>
         internal static string MDef {
             get {
@@ -556,7 +556,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Minotaurus.
+        ///   Looks up a localized string similar to Minotaure.
         /// </summary>
         internal static string Minotaurus {
             get {
@@ -565,7 +565,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MPRegen.
+        ///   Looks up a localized string similar to MP Régén..
         /// </summary>
         internal static string MPRegen {
             get {
@@ -574,7 +574,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MRes.
+        ///   Looks up a localized string similar to Esquive M..
         /// </summary>
         internal static string MRes {
             get {
@@ -583,7 +583,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mystic Koala.
+        ///   Looks up a localized string similar to Carbuncle.
         /// </summary>
         internal static string MysticKoala {
             get {
@@ -592,7 +592,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Naga.
+        ///   Looks up a localized string similar to Tafari.
         /// </summary>
         internal static string Naga {
             get {
@@ -601,7 +601,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Nightmare.
+        ///   Looks up a localized string similar to Licorne Noire.
         /// </summary>
         internal static string Nightmare {
             get {
@@ -610,7 +610,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to None.
+        ///   Looks up a localized string similar to Aucun.
         /// </summary>
         internal static string None {
             get {
@@ -619,7 +619,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Octopus.
+        ///   Looks up a localized string similar to Craken.
         /// </summary>
         internal static string Octopus {
             get {
@@ -637,7 +637,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pantera.
+        ///   Looks up a localized string similar to Panthère.
         /// </summary>
         internal static string Pantera {
             get {
@@ -646,7 +646,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to PAttack.
+        ///   Looks up a localized string similar to Attaque.
         /// </summary>
         internal static string PAtk {
             get {
@@ -655,7 +655,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to PDefense.
+        ///   Looks up a localized string similar to Défense.
         /// </summary>
         internal static string PDef {
             get {
@@ -664,7 +664,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Poultry.
+        ///   Looks up a localized string similar to Volatile.
         /// </summary>
         internal static string Poultry {
             get {
@@ -673,7 +673,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Red Pixie.
+        ///   Looks up a localized string similar to Fée Rouge.
         /// </summary>
         internal static string RedPixie {
             get {
@@ -682,7 +682,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Salamander.
+        ///   Looks up a localized string similar to Salamandre.
         /// </summary>
         internal static string Salamander {
             get {
@@ -691,7 +691,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Siren.
+        ///   Looks up a localized string similar to Sirène.
         /// </summary>
         internal static string Siren {
             get {
@@ -700,7 +700,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Skeleton.
+        ///   Looks up a localized string similar to Squelette.
         /// </summary>
         internal static string Skeleton {
             get {
@@ -709,7 +709,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Snowman.
+        ///   Looks up a localized string similar to Bonhomme de neige.
         /// </summary>
         internal static string Snowman {
             get {
@@ -718,7 +718,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Stone Golem.
+        ///   Looks up a localized string similar to Cube.
         /// </summary>
         internal static string StoneGolem {
             get {
@@ -727,7 +727,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Strength.
+        ///   Looks up a localized string similar to Force.
         /// </summary>
         internal static string Strength {
             get {
@@ -736,7 +736,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tortus.
+        ///   Looks up a localized string similar to Tortue.
         /// </summary>
         internal static string Tortus {
             get {
@@ -745,7 +745,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to About.
+        ///   Looks up a localized string similar to A propos.
         /// </summary>
         internal static string UI_About {
             get {
@@ -754,7 +754,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DizzySasquatch&apos;s Beltstatcalculator $version$n$nThanks to Grzlgrmpf, who helped me testing and made some nice suggestions.$n$nTranslators:$nGerman$t$tDizzySasquatch$nEnglish$t$tDizzySasquatch$nFrench$t$tSorrowAssa.
+        ///   Looks up a localized string similar to Calculateur de ceinture par DizzySasquatch $version$n$nMerci à Grzlgrmpf qui m&apos;a aidé à tester et m&apos;a donné de bonnes suggestions.$n$nTraducteur:$nAllemand$tDizzySasquatch$nAnglais$t$tDizzySasquatch$nFrançais$t$tSorrowAssa.
         /// </summary>
         internal static string UI_AboutText {
             get {
@@ -763,7 +763,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to About the Beltstatcalculator (by DizzySasquatch).
+        ///   Looks up a localized string similar to A propos du Calculateur de ceinture (par DizzySasquatch).
         /// </summary>
         internal static string UI_AboutTitle {
             get {
@@ -772,7 +772,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Belt Enhancement.
+        ///   Looks up a localized string similar to Amélioration de ceinture.
         /// </summary>
         internal static string UI_BeltEnhancement {
             get {
@@ -781,7 +781,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Error.
+        ///   Looks up a localized string similar to Erreur.
         /// </summary>
         internal static string UI_Error {
             get {
@@ -790,7 +790,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Error parsing language..
+        ///   Looks up a localized string similar to Erreur .
         /// </summary>
         internal static string UI_LanguageParseError {
             get {
@@ -799,7 +799,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Limit.
+        ///   Looks up a localized string similar to Limite.
         /// </summary>
         internal static string UI_Limit {
             get {
@@ -808,7 +808,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Reset.
+        ///   Looks up a localized string similar to Réinitialiser.
         /// </summary>
         internal static string UI_Reset {
             get {
@@ -817,7 +817,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Stage.
+        ///   Looks up a localized string similar to Stade.
         /// </summary>
         internal static string UI_Stage {
             get {
@@ -826,7 +826,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Undine.
+        ///   Looks up a localized string similar to Mécanymphe.
         /// </summary>
         internal static string Undine {
             get {
@@ -835,7 +835,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unicorn.
+        ///   Looks up a localized string similar to Licorne Blanche.
         /// </summary>
         internal static string Unicorn {
             get {
@@ -844,7 +844,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Vitality.
+        ///   Looks up a localized string similar to Vitalité.
         /// </summary>
         internal static string Vitality {
             get {
@@ -853,7 +853,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to White Dragon.
+        ///   Looks up a localized string similar to Dragon Blanc.
         /// </summary>
         internal static string WhiteDragon {
             get {
@@ -862,7 +862,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Wind Pixie.
+        ///   Looks up a localized string similar to Fée des Vents.
         /// </summary>
         internal static string WindPixie {
             get {
@@ -871,7 +871,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Wisdom.
+        ///   Looks up a localized string similar to Sagesse.
         /// </summary>
         internal static string Wisdom {
             get {
@@ -880,7 +880,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Wolf.
+        ///   Looks up a localized string similar to Loup.
         /// </summary>
         internal static string Wolf {
             get {
@@ -889,7 +889,7 @@ namespace DizzySasquatchsBeltstatcalculator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Yeti.
+        ///   Looks up a localized string similar to Yéti.
         /// </summary>
         internal static string Yeti {
             get {
