@@ -39,6 +39,7 @@
         </ComboBox>
         <ComboBox x:Name="CBx_Pet2" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top" Width="176" Height="26" Tag="Petlist"/>
         <ComboBox x:Name="Cbx_Stage2" HorizontalAlignment="Left" Margin="191,124,0,0" VerticalAlignment="Top" Width="66" SelectedIndex="0" Height="26">
+            <ComboBoxItem Content="0"/>
             <ComboBoxItem Content="1"/>
             <ComboBoxItem Content="2"/>
             <ComboBoxItem Content="3"/>
@@ -47,6 +48,8 @@
         </ComboBox>
         <ComboBox x:Name="CBx_Pet3" HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top" Width="176" Height="26" Tag="Petlist"/>
         <ComboBox x:Name="Cbx_Stage3" HorizontalAlignment="Left" Margin="191,155,0,0" VerticalAlignment="Top" Width="66" SelectedIndex="0" Height="26">
+            <ComboBoxItem Content="0"/>
+            <ComboBoxItem Content="1"/>
             <ComboBoxItem Content="2"/>
             <ComboBoxItem Content="3"/>
             <ComboBoxItem Content="4"/>
